@@ -19,5 +19,7 @@
   "dependencies": {
     "express": "^4.15.2",
     "body-parser": "^1.17.1"
-  }
+  },
+  "proxy": "http://localhost:3000",
+  "main": "./server.js"
 }
