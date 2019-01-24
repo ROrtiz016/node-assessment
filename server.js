@@ -4,7 +4,7 @@ const app = express();
 const usersCtrl = require('./usersCtrl')
 const port = 3000
 
-app.use(express.json())
+app.use(bodyParser.json())
 
 app.get('/api/user',usersCtrl.getUsers)
 
